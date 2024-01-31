@@ -26,7 +26,8 @@ We explore two different neural network structures:
 • A Dense output layer with 5 units and sigmoid activation. 
 
 
-Training & Validation Process 
+Training & Validation Process :
+
 • We use the Adam optimizer with custom learning rates for both models. 
 • Models are compiled with sparse categorical cross-entropy loss and accuracy metric. 
 • Training is performed for 50 epochs with a batch size of 16. 
