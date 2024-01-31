@@ -13,19 +13,19 @@ We aim to achieve a classification accuracy of at least 60%.
  
 We explore two different neural network structures: 
 
-Simple RNN Model: 
+* Simple RNN Model: 
 • Two Simple RNN layers with 64 and 32 units, respectively. 
 • A Dense layer with 32 units and ReLU activation. 
 • A Dropout layer with 20% dropout rate. 
 • A Dense output layer with 5 units and sigmoid activation. 
 
-LSTM Neural Network: 
+* LSTM Neural Network: 
 • Two LSTM layers with 64 and 32 units, respectively. 
 • A Dense layer with 32 units and ReLU activation. 
 • A Dropout layer with 20% dropout rate. 
 • A Dense output layer with 5 units and sigmoid activation. 
 
-Training & Validation Process 
+* Training & Validation Process 
 • We use the Adam optimizer with custom learning rates for both models. 
 • Models are compiled with sparse categorical cross-entropy loss and accuracy metric. 
 • Training is performed for 50 epochs with a batch size of 16. 
